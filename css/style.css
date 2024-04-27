@@ -1,3 +1,19 @@
 h1 {
     background-color: red;
 }
+
+.imgCarrucel {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(/Python/TPO-PythonFS-C24261-G01/img/001.jpg);
+    background-size: cover;
+    background-position: center;
+    }
+
+    .prfCarrucel {
+        color: white;
+
+    }
