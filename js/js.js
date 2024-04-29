@@ -1,6 +1,10 @@
+
+//-------------------- CARRUSEL---------------------------
+//VARIABLE GLOBAL E INICIACION DE POSICION
 let posicionCarrusel = 1;
 imgSeleccion(posicionCarrusel);
 
+//FUNCION DE LA BOTONERA, CREO QUE SE PUEDE OPTIMIZAR
 function cambio(direccion) {
     console.log(direccion, posicionCarrusel);
     if(direccion === "izquierda" ) {
