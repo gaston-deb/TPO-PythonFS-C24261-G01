@@ -1,19 +1,20 @@
 
  /* Añadir imagen de fondo del CARRUSEL*/
 #miDiv {
-    height: 100vh;
+    height: 200vh;
     background-repeat: no-repeat;
-   
     background-image: url('/Python/TPO-PythonFS-C24261-G01/img/001.jpg');
 }
 
 #textoCarrusel {
+    
     color: blanchedalmond;
 }
 
 /*BOTONERA DEL CARRUSEL*/
 #botonera {
     display: flex;
+    height: 120vh;
     justify-content: center;
     align-items: flex-end;
 }

@@ -9,7 +9,7 @@ function cambio(direccion) {
     console.log(direccion, posicionCarrusel);
     if(direccion === "izquierda" ) {
         if(posicionCarrusel === 1){
-            posicionCarrusel = 0;
+            posicionCarrusel --;
             imgSeleccion(posicionCarrusel); 
             } else if (posicionCarrusel === 0) {
                 posicionCarrusel = 2;
@@ -20,10 +20,10 @@ function cambio(direccion) {
                 }  
         } else if (direccion === "derecha"){
             if(posicionCarrusel === 1){
-                posicionCarrusel = 2;
+                posicionCarrusel ++;
                 imgSeleccion(posicionCarrusel);
                 } else if(posicionCarrusel === 0){
-                    posicionCarrusel = 1;
+                    posicionCarrusel ++;
                     imgSeleccion(posicionCarrusel);
                 } else {
                     posicionCarrusel = 0;
@@ -32,6 +32,7 @@ function cambio(direccion) {
         }
 }
 
+//esto se puede hacer con switch
 function imgSeleccion(num) {
     let miDiv = document.getElementById("miDiv");
     if (num === 0) {
