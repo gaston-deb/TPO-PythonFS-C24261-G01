@@ -1,19 +1,19 @@
-h1 {
-    background-color: red;
+
+ /* Añadir imagen de fondo del CARRUSEL*/
+#miDiv {
+    height: 100vh;
+    background-repeat: no-repeat;
+   
+    background-image: url('/Python/TPO-PythonFS-C24261-G01/img/001.jpg');
 }
 
-.imgCarrucel {
-    width: 100vw;
-    height: 100vh;
+#textoCarrusel {
+    color: blanchedalmond;
+}
+
+/*BOTONERA DEL CARRUSEL*/
+#botonera {
     display: flex;
-    align-items: center;
     justify-content: center;
-    background: url(/Python/TPO-PythonFS-C24261-G01/img/001.jpg);
-    background-size: cover;
-    background-position: center;
-    }
-
-    .prfCarrucel {
-        color: white;
-
-    }
+    align-items: flex-end;
+}
